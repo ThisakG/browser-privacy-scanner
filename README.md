@@ -20,3 +20,21 @@ Scan Results: Displays a clean, interactive report showing which trackers were f
 Local Storage: All scan data is stored locally on the user’s device — nothing is sent to external servers.
 
 In short: TinyGuard gives you transparency and control over your online privacy, helping you make safer browsing decisions while staying lightweight and non-intrusive.
+
+## How it works
+
+
+
+Service worker initializes and loads trackers.json. Content script is injected into every tab.
+
+Content script:
+
+Observes network requests (XHR/fetch)
+
+Checks if URLs match trackers.json
+
+Sends results to the service worker
+
+Service worker stores results per tab.
+
+Popup requests results → service worker sends them → popup displays score.
