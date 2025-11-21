@@ -95,12 +95,10 @@ It detects third-party requests, identifies known trackers, assigns a privacy sc
   <li>F: 0–39</li>
 </ul>
 
-<h2>📦 Installation (Developer Mode)</h2>
-<pre><code>git clone https://github.com/ThisakG/tinyguard
-
+<h2>📦 Installation</h2>
+Download the .crx file
 Open Chrome → chrome://extensions
-Enable Developer Mode
-Click Load Unpacked
-Select the tinyguard folder
+Drag it onto chrome://extensions/
+Chrome will prompt them to add it
 </code></pre>
 
