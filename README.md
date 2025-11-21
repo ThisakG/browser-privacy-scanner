@@ -99,23 +99,7 @@ Click Load Unpacked
 Select the tinyguard folder
 </code></pre>
 
-<h2>🖼️ Recommended Screenshots for GitHub & LinkedIn</h2>
-<p>Include these 4 images:</p>
-<ol>
-  <li><strong>The Popup UI (Main Screenshot)</strong> - Show score, trackers, blocked trackers, third-parties list</li>
-  <li><strong>Example: A Really Bad Website (F Grade)</strong> - Capture a popular site with lots of trackers (CNN, Forbes, Amazon, YouTube)</li>
-  <li><strong>The Blocking Ruleset / JSON Preview</strong> - A cropped section of your <code>rules.json</code> to show scale</li>
-  <li><strong>Architecture Diagram (optional)</strong> - Simple flowchart: User → Browser → TinyGuard (content script + background worker + DNR) → Network</li>
-</ol>
-
-<h2>🧪 Planned Improvements</h2>
-<ul>
-  <li>Custom user-defined blocking rules</li>
-  <li>Popup “expand details” mode</li>
-  <li>Cross-tab scoring statistics</li>
-  <li>Heatmap of most common trackers</li>
-  <li>Optional auto-refresh and continuous scanning</li>
-</ul>
-
-<h2>📄 License</h2>
-<p>MIT License. Free to use, modify, and distribute.</p>
+<br>
+<p>The track directory contains the python code used to convert the EasyPrivacy list into a JSON file</p>
+<p>The TinyGuard-tools sub-directory inside the extension directory contains the node.js code used to convert the tracker.json file into the rules.json that contains the static DNR rules.</p>
+<br>
