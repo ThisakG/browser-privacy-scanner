@@ -96,7 +96,7 @@ It detects third-party requests, identifies known trackers, assigns a privacy sc
 </ul>
 
 <h2>📦 Installation (Developer Mode)</h2>
-<pre><code>git clone https://github.com/yourusername/tinyguard
+<pre><code>git clone https://github.com/ThisakG/tinyguard
 
 Open Chrome → chrome://extensions
 Enable Developer Mode
