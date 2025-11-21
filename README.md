@@ -96,12 +96,13 @@ It detects third-party requests, identifies known trackers, assigns a privacy sc
 </ul>
 
 <h2>📦 Installation</h2>
+
 Download the .crx file
 
 Open Chrome → chrome://extensions
 
 Drag it onto chrome://extensions/
 
-Chrome will prompt them to add it
+Chrome will prompt to add
 </code></pre>
 
