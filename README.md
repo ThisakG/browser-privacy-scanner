@@ -37,6 +37,11 @@ It detects third-party requests, identifies known trackers, assigns a privacy sc
   <li>Zero performance overhead thanks to MV3’s native DNR engine</li>
 </ul>
 
+<br>
+<p>- The track directory contains the python code used to convert the EasyPrivacy list into a JSON file</p>
+<p>- The TinyGuard-tools sub-directory inside the extension directory contains the node.js code used to convert the tracker.json file into the rules.json that contains the static DNR rules.</p>
+<br>
+
 <h2>🏗️ Tech Stack</h2>
 
 <h3>Chrome Extension Architecture</h3>
@@ -99,7 +104,3 @@ Click Load Unpacked
 Select the tinyguard folder
 </code></pre>
 
-<br>
-<p>The track directory contains the python code used to convert the EasyPrivacy list into a JSON file</p>
-<p>The TinyGuard-tools sub-directory inside the extension directory contains the node.js code used to convert the tracker.json file into the rules.json that contains the static DNR rules.</p>
-<br>
