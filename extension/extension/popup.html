@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="popup.css">
+  <title>TinyGuard</title>
+</head>
+<body>
+  <div class="frame">
+    <header class="titlebar">
+      <img class="logo" src="icons/TinyGuard48.png" alt="TinyGuard">
+      <div class="title-text">
+        <div class="name">TinyGuard</div>
+        <div class="subtitle">Privacy Scanner</div>
+      </div>
+    </header>
+
+    <main class="panel">
+      <div id="scoreCard" class="score-card">
+        <div class="score-left">
+          <div class="score-num" id="scoreValue">--</div>
+          <div class="score-grade" id="gradeValue">-</div>
+        </div>
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg"><div id="scoreBar" class="score-bar-fill"></div></div>
+        </div>
+      </div>
+
+      <div class="sections">
+        <section class="section">
+          <h4 class="section-title">Trackers: <span id="trackersCount">(0)</span></h4>
+          <div id="trackersList" class="list"></div>
+        </section>
+
+        <section class="section">
+          <h4 class="section-title">Third-Party: <span id="thirdCount">(0)</span></h4>
+          <div id="thirdList" class="list"></div>
+        </section>
+
+        <section class="section">
+          <h4 class="section-title">Permissions: <span id="permCount">(0)</span></h4>
+          <div id="permList" class="list"></div>
+        </section>
+
+        <section class="section">
+          <h4 class="section-title">Blocked Trackers: <span id="blockedCount">(0)</span></h4>
+          <div id="blockedList" class="list"></div>
+        </section>
+      </div>
+
+      <div class="actions">
+        <button id="scanBtn" class="pix-btn">Scan Page</button>
+        <!--<button id="openDash" class="pix-btn alt">Open Dashboard</button>-->
+        <label style="align-items:center;display:flex;gap:6px;">
+          <input id="blockToggle" type="checkbox" />
+          <span>Block known trackers</span>
+        </label>
+      </div>
+    </main>
+
+    <footer class="foot">TinyGuard — lightweight & local</footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
